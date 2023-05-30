@@ -1,0 +1,98 @@
+
+
+<style>
+/*start of Welcomepage styling*/
+.container{
+	
+	text-align:center;
+}
+
+.container .btn{
+	width: 200px;
+	height:25px;
+	padding:8px;
+	font-size:20px;
+	text-decoration: none;
+	color:#000;
+	border: 3px solid #000;
+	background: transparent;
+	margin:10px;
+	transition: 0.8s !important;
+	display:block;
+	
+}
+/*End of Welcomepage styling*/
+
+/*start of survey page styling*/
+		/*first section*/
+.container-table{
+	height: 100vh;
+	display: flex;
+	justify-content:center;
+}
+
+.container-table .center{
+	background:#b67d8f;
+	height:830px;
+	width:700px;
+	padding:10px;
+	border:2.5px solid #000;
+}
+
+.container-table .center table{
+	margin:0 0 0 50px;
+}
+.container-table .center table td{
+	padding:20px 0 0 0;
+}
+.textfield1{
+	width:175px;
+	height:20px;
+	border:5px solid #1320ad;
+}
+.textfield_age{
+	width:40px;
+	height:20px;
+	border:5px solid #1320ad;
+}
+ /*second section*/
+ 
+ .container-table .center .agree-disagree table{
+ 	border:2px solid #354036;
+ 	border-collapse:collapse;
+ 	width:700px;
+	margin:0px;
+ } 
+ 
+ .container-table .center .agree-disagree table tr{
+ 	width:150px;
+ 	align:center;
+ }
+ 
+  .container-table .center .agree-disagree table th{
+ 	border-right:2px solid #354036;
+ 	background: #2e362f;
+ 	color:#fff;
+ }
+ 
+ .container-table .center .agree-disagree table td{
+ 	border-right:2px solid #354036;
+ }
+ 
+ .container-table .center .btn{
+ 	width: 130px;
+	height:39px;
+	padding:8px;
+	font-size:20px;
+	text-decoration: none;
+	color:#000;
+	border: 3px solid #000;
+	background: transparent;
+	margin:10px;
+	transition: 0.8s !important;
+	display:block;
+	cursor:pointer;
+ }
+
+/*End of survey page styling*/
+</style>
