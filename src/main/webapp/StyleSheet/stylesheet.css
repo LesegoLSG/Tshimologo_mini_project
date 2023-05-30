@@ -2,12 +2,22 @@
 
 <style>
 /*start of Welcomepage styling*/
-.container{
+.container-welcome{
 	
-	text-align:center;
+	height: 100vh;
+	display: flex;
+	justify-content:center;
 }
 
-.container .btn{
+.container-welcome .center-welcome{
+	background:#b67d8f;
+	height:200px;
+	width:250px;
+	padding:10px;
+	border:2.5px solid #000;
+}
+
+.container-welcome .center-welcome .btn{
 	width: 200px;
 	height:25px;
 	padding:8px;
@@ -95,4 +105,21 @@
  }
 
 /*End of survey page styling*/
+
+/*Start of results page*/
+.container-results{
+	height: 100vh;
+	display: flex;
+	justify-content:center;
+}
+
+.container-results .center-results{
+	background:#b67d8f;
+	height:830px;
+	width:700px;
+	padding:10px;
+	border:2.5px solid #000;
+}
+
+/*End of results page*/
 </style>

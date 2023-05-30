@@ -9,9 +9,11 @@
 </head>
 <body>
 
-	<div class="container">
-		<a type="button" class="btn" href="#"><b>Fill out survey</b></a>
-		<a type="button" class="btn" href="#"><b>View survey results</b></a>
+	<div class="container-welcome">
+		<div class="center-welcome">
+			<a type="button" class="btn" href="#"><b>Fill out survey</b></a> <a
+				type="button" class="btn" href="#"><b>View survey results</b></a>
+		</div>
 	</div>
 
 </body>
